@@ -53,6 +53,7 @@ int	f_isspace(char **args)
 	int	i;
 	int	j;
 
+	i = 0;
 	while (args[i])
 	{
 		j = 0;
