@@ -41,9 +41,9 @@ void	checker(char *line, t_stack **a, t_stack **b)
 void	statement(t_stack **a)
 {
 	if (nums_sorted(a) == 0)
-		ft_putstr("ok\n");
+		ft_putstr("OK\n");
 	else
-		ft_putstr("ko\n");
+		ft_putstr("KO\n");
 	ft_lstclear(a);
 }
 
